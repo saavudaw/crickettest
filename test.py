@@ -43,7 +43,7 @@ def unknown(update: Update, context: CallbackContext):
 
 def main():
     # Set up the Telegram bot
-    updater = Updater("6348947600:AAEVSHXahx6L-SwKtgePI6z8Tmjz2AJbHOk", use_context=True)
+    updater = Updater("YOUR_TELEGRAM_BOT_TOKEN", use_context=True)
     dp = updater.dispatcher
 
     # Define command handlers
